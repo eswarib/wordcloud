@@ -1,7 +1,6 @@
 ansible-base==2.10.8
 apache-libcloud==3.2.0
 appdirs==1.4.4
-apturl==0.5.2
 argcomplete==1.8.1
 argon2-cffi==21.1.0
 attrs==21.2.0
