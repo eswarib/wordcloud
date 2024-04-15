@@ -10,7 +10,7 @@ from PIL import Image, ImageFont, ImageDraw
 # Create a new image with a white background
 image = Image.new("RGB", (500, 500), "white")
 
-font = ImageFont.truetype("/home/eswari/Documents/Personal/chromeExtensionProject/wordcloud/fonts/HappySwirly-KVB7l.ttf", size=12)
+font = ImageFont.truetype("fonts/HappySwirly-KVB7l.ttf", size=12)
 draw = ImageDraw.Draw(image)
 text_size = draw.textlength("Your text here", font=font)
 
@@ -23,7 +23,7 @@ def generate_wordcloud():
     text = request.json['text']
 
   # Specify the path to a TrueType font file
-    font_path = "/home/eswari/Documents/Personal/chromeExtensionProject/wordcloud/fonts/Helvetica.ttf"
+    font_path = "fonts/Helvetica.ttf"
     
     # Create WordCloud with TrueType font specified
     wordcloud = WordCloud(font_path=font_path).generate(text)
