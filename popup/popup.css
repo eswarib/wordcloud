@@ -1,0 +1,15 @@
+/* popup.css */
+body {
+    width: 5000px; /* Adjust width as needed */
+    height: 4000px; /* Adjust height as needed */
+    padding: 200px;
+}
+
+#wordCloud {
+    width: 100%; /* Use 100% width of the popup */
+    height: 100%; /* Use 100% height of the popup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
