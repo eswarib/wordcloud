@@ -38,7 +38,7 @@ def generate_wordcloud():
     return img_base64
     
 
-//if __name__ == '__main__':
+#if __name__ == '__main__':
 //    app.run(debug=True)
 
 import os
