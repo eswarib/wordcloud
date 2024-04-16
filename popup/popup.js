@@ -40,7 +40,7 @@ function handleImageData(imageData) {
 function handleWordCloudData(data) {
     console.log('data to form wordcloud:', data.textContent);
     // Fetch image data from Flask server
-    fetch('http://127.0.0.1:5000/generate_wordcloud', {
+    fetch('https://wordcloud-d7f2dcbffa74.herokuapp.com/generate_wordcloud', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
